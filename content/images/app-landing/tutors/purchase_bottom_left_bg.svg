@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="265px" height="504px" viewBox="0 0 265 504" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>17</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="122.718121" height="368" rx="61.3590604"></rect>
+        <rect id="path-3" x="-142.281879" y="135" width="122.718121" height="368" rx="61.3590604"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="17" transform="translate(132.500000, 251.862915) scale(-1, 1) translate(-132.500000, -251.862915) translate(0.000000, 0.362915)">
+            <g id="Group-57-Copy" transform="translate(132.500000, 251.500000) scale(-1, 1) translate(-132.500000, -251.500000) ">
+                <g id="Group-56" transform="translate(142.281879, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <rect stroke="#A6B5BE" x="0.5" y="0.5" width="121.718121" height="367" rx="60.8590604"></rect>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <rect stroke="#A6B5BE" x="-141.781879" y="135.5" width="121.718121" height="367" rx="60.8590604"></rect>
+                </g>
+                <g id="shutterstock_2182579445" transform="translate(0.000000, 135.000000)"></g>
+            </g>
+            <rect id="Rectangle-Copy-15" stroke="#A6B5BE" fill="#FFFFFF" opacity="0.450651623" transform="translate(121.693182, 397.137085) scale(-1, 1) translate(-121.693182, -397.137085) " x="112.886364" y="378.137085" width="17.6136364" height="38" rx="8.80681818"></rect>
+        </g>
+    </g>
+</svg>
