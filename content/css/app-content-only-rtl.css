@@ -5450,8 +5450,9 @@ ol.arabic-numbers {
   right: inherit;
 }
 
-.video-player.video-player--has-ad:hover {
-  border-color: transparent;
+.video-player .plyr,
+.video-player .plyr--video {
+  border-radius: 0.8rem;
 }
 .video-player.video-player--has-ad:focus-visible {
   outline: none !important;

@@ -811,24 +811,13 @@
     const videoPlayer = videoWrapper.find('>.player-agent');
     const videoAdWrapper = videoWrapper.find('.video-ad');
     const videoAdPlayer = videoAdWrapper.find('.player-agent');
-    
+    let videoAdDurationCounter;
+
     videoPlayer.on("play", (event) => {
         if (videoWrapper.hasClass('video-player--has-ad')) {
             // Playing Ad
             videoPlayer[0].pause();
             videoAdPlayer[0].play();
-            
-            // Showing Ad duration and countdown
-            let videoAdDuration = Math.round(videoAdPlayer[0].duration);
-            $('.ad-time').text(`00:${videoAdDuration}`);
-            const videoAdDurationCounter = setInterval(() => {
-                if (videoAdDuration === 0) {
-                    clearInterval(videoAdDurationCounter)
-                    return;
-                }
-                videoAdDuration--;
-                $('.ad-time').text(`00:${("0" + videoAdDuration).slice(-2)}`)
-            },1000)
 
             // Closing ad when finish
             videoAdPlayer.on('ended', () => {
@@ -864,6 +853,23 @@
             });
 
         }
+    });
+
+    videoAdPlayer.on('play', () => {
+        // Showing Ad duration and countdown
+        let videoAdDuration = Math.round(videoAdPlayer[0].duration - videoAdPlayer[0].currentTime);
+        $('.ad-time').text(`00:${videoAdDuration}`);
+        videoAdDurationCounter = setInterval(() => {
+            if (videoAdDuration === 0) {
+                clearInterval(videoAdDurationCounter);
+                return;
+            }
+            videoAdDuration--;
+            $('.ad-time').text(`00:${("0" + videoAdDuration).slice(-2)}`)
+        },1000)
+    });
+    videoAdPlayer.on('pause', () => {
+        clearInterval(videoAdDurationCounter);
     });
 
 
