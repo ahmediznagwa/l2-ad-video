@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="286px" height="469px" viewBox="0 0 286 469" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16</title>
+    <defs>
+        <rect id="path-1" x="162.895516" y="52" width="122.718121" height="368" rx="61.3590604"></rect>
+        <rect id="path-3" x="20.6136364" y="0" width="122.718121" height="368" rx="61.3590604"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16" transform="translate(142.806818, 234.362915) scale(-1, 1) translate(-142.806818, -234.362915) translate(0.000000, 0.362915)">
+            <g id="Group-77">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <rect stroke="#A6B5BE" x="163.395516" y="52.5" width="121.718121" height="367" rx="60.8590604"></rect>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <rect stroke="#A6B5BE" x="21.1136364" y="0.5" width="121.718121" height="367" rx="60.8590604"></rect>
+                <rect id="Rectangle-Copy-16" stroke="#A6B5BE" fill="#FFFFFF" opacity="0.450651623" transform="translate(9.306818, 362.137085) scale(-1, 1) translate(-9.306818, -362.137085) " x="0.5" y="343.137085" width="17.6136364" height="38" rx="8.80681818"></rect>
+            </g>
+            <g id="shutterstock_2182579445" transform="translate(20.613636, 100.000000)"></g>
+        </g>
+    </g>
+</svg>

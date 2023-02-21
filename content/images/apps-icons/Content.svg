@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="87px" viewBox="0 0 87 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>L6</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L6" fill-rule="nonzero">
+            <g id="Group-Copy">
+                <rect id="Rectangle" stroke="#D8D8D8" stroke-width="0.5" fill="#FFFFFF" x="0.25" y="0.25" width="85.8753713" height="86.0064815" rx="19.2"></rect>
+                <g id="Group" transform="translate(14.000000, 18.000000)">
+                    <polygon id="Path" fill="#026BB0" points="0 41.6664286 14.4991748 50 14.4991748 33.3328571 43.5006817 50 43.5006817 33.3328571 0 8.33371429"></polygon>
+                    <polygon id="Path" fill="#F5AA00" points="14.4998063 50 28.9989811 41.6664286 14.4998063 33.3328571"></polygon>
+                    <polygon id="Path" fill="#F5AA00" points="43.5008252 0 29.0000718 8.33357143 43.5008252 16.6671429"></polygon>
+                    <polygon id="Path" fill="#E51D74" points="43.5008252 0 43.5008252 16.6671429 14.499347 0 0.000143512705 8.33357143 43.5008252 33.3327143 43.5008252 49.9998571 58 41.6662857 58 8.33357143"></polygon>
+                    <polygon id="Path" fill="#78B517" points="14.4998063 0 0.000631455907 8.33357143 14.4998063 16.6671429 28.9989811 8.33357143"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
